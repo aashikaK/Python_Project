@@ -8,6 +8,8 @@ yourChoice=input('Enter your choice(s for snake,w for water and g for gun): ')
 yourDict={"s":1,"w":-1,"g":0}
 you=yourDict[yourChoice]
 
+if(computer==you):
+    print("It is draw.")
 elif(computer==-1 and you==1):
     print("You win!")
 
