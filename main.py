@@ -25,3 +25,6 @@ if(computer==0 and you==-1):
 
 elif(computer==0 and you==1):
     print("You lose!")
+
+else: 
+    print('Something went wrong!!')
