@@ -3,7 +3,9 @@
 -1 for water 
 0 for gun
 '''
-computer=-1
+import random
+
+computer=random.choice([1,-1,0])
 yourChoice=input('Enter your choice(s for snake,w for water and g for gun): ')
 yourDict={"s":1,"w":-1,"g":0}
 you=yourDict[yourChoice]
