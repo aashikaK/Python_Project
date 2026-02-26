@@ -8,6 +8,9 @@ yourChoice=input('Enter your choice(s for snake,w for water and g for gun): ')
 yourDict={"s":1,"w":-1,"g":0}
 you=yourDict[yourChoice]
 
+reverseDict={1:'Snake',-1:'Water',0:'Gun'}
+print(f'You chose {you}\nComputer chose {reverseDict[computer]}\n')
+
 if(computer==you):
     print("It is a draw.")
 elif(computer==-1 and you==1):
