@@ -9,7 +9,7 @@ yourDict={"s":1,"w":-1,"g":0}
 you=yourDict[yourChoice]
 
 reverseDict={1:'Snake',-1:'Water',0:'Gun'}
-print(f'You chose {reverseDict[you]}\nComputer chose {reverseDict[computer]}\n')
+print(f'You chose {reverseDict[you]}\nComputer chose {reverseDict[computer]}')
 
 if(computer==you):
     print("It is a draw.")
