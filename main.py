@@ -9,7 +9,7 @@ yourDict={"s":1,"w":-1,"g":0}
 you=yourDict[yourChoice]
 
 if(computer==you):
-    print("It is draw.")
+    print("It is a draw.")
 elif(computer==-1 and you==1):
     print("You win!")
 
